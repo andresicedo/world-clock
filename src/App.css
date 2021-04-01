@@ -1,0 +1,29 @@
+.navbar {
+  background-color: rgb(59, 59, 59);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul li a{
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar ul li a .active {
+  color: gray;
+}
